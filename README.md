@@ -141,14 +141,3 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=whitenew1610-max&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
----
-
-### 📬 Kết nối với mình (Connect with me)
-<p align="left">
-  <a href="https://kiemseo.site" target="_blank">
-    <img src="https://img.shields.io/badge/Website-kiemseo.site-34D399?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
-  </a>
-  <a href="https://t.me/kiemseo" target="_blank">
-    <img src="https://img.shields.io/badge/Telegram-@kiemseo-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
-  </a>
-</p>

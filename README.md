@@ -132,12 +132,3 @@
   <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=portswigger&logoColor=white" alt="Burp Suite" />
 </p>
 
----
-
-### 📊 Thống kê GitHub (GitHub Stats)
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=whitenew1610-max&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=whitenew1610-max&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
-

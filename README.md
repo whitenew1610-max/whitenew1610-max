@@ -1,65 +1,90 @@
 # Hi there, I'm Triis 👋
 
 <p align="left">
-  <a href="https://kiemseo.site"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=34D399&background=05070600&vCenter=true&width=580&lines=Full-Stack+Web+Engineer+%7C+Next.js+%7C+Golang;Application+Security+%26+Anti-Fraud+Architect;Building+fast%2C+secure+systems+since+2025" alt="Typing SVG" /></a>
+  <a href="https://kiemseo.site"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=34D399&background=05070600&vCenter=true&width=620&lines=Full-Stack+Web+Engineer+%7C+Next.js+%7C+Golang;Application+Security+%26+Anti-Fraud+Architect;Building+fast%2C+secure+systems+since+2025" alt="Typing SVG" /></a>
 </p>
 
-```
-Full-Stack Engineer who builds high-performance web systems
-and knows how attackers think — so I build defenses that actually work.
-```
+> **Full-Stack Engineer** specializing in high-performance web applications, distributed Go automation, and application security.  
+> _"A developer who understands how systems get broken builds systems that don't."_
+
+---
+
+### 📊 Key Highlights & Impact
+
+| 🛡️ Anti-Fraud Engine | ⚡ High Concurrency | 🚀 Web Performance | 🔒 Code Protection |
+| :---: | :---: | :---: | :---: |
+| **13-Layer Engine** (~37K LOC) | **10K+ Goroutines** | **100/100 Lighthouse** | **5-Layer AST Pipeline** |
+| Behavioral Biometrics & Scoring | Socket-Level Automation | Mobile & Desktop Optimized | Edge Shards & Zero-Trace |
+
+---
+
+<details>
+<summary>🇻🇳 <b>Xem bản tóm tắt năng lực bằng Tiếng Việt (Dành cho nhà tuyển dụng)</b></summary>
+<br />
+
+- **Định vị**: Kỹ sư Full-Stack Web kiêm Chuyên gia Bảo mật Ứng dụng & Chống Gian lận (AppSec / Anti-Fraud).
+- **Điểm mạnh cốt lõi**:
+  - **Full-Stack Web**: Xây dựng ứng dụng hoàn chỉnh với Next.js 16, React 19, TypeScript, PostgreSQL, tối ưu hiệu năng đạt 100/100 Lighthouse.
+  - **Hệ thống chịu tải cao (Golang)**: Xử lý hàng vạn kết nối đồng thời với Goroutines/Channels; điều khiển Chrome DevTools Protocol (`chromedp`) ở mức socket; biên dịch đa nền tảng (Windows/ARM).
+  - **Bảo mật ứng dụng & Chống gian lận (Thế mạnh đặc biệt)**: Thiết kế engine chống gian lận 13 lớp (~37,000 dòng code) dựa trên sinh trắc học hành vi (Bézier curves, timing variance), dấu vân tay phần cứng (Canvas/WebGL/AudioContext) và chấm điểm rủi ro ẩn (Silent Risk Scoring).
+  - **Dịch ngược & Mạng tầng sâu**: Dịch ngược WebAssembly, phân tích mật mã (ECDH, AES-GCM), tùy biến ClientHello TLS (JA3/JA4) trên raw socket.
+</details>
 
 ---
 
 ### 🌐 Live Production Projects
 
-**[kiemseo.site](https://kiemseo.site)** — Full-stack SEO & Analytics Platform  
-`Next.js 16` · `React 19` · `TypeScript` · `PostgreSQL` · `Prisma ORM` · `Tailwind CSS v4`  
-⚡ **Lighthouse 100/100** (Mobile & Desktop) · Zero-downtime deployment · Edge security via Cloudflare Workers
-
-**[khoahocne.xyz](https://khoahocne.xyz)** — Education Platform (Course Sharing for High School Students)  
-`Next.js 16` · `React 19` · `Prisma` · `SQLite` · `Google Auth` · `Framer Motion`  
-Full SSR/SEO optimization · Dark mode · Gamification (ranks, confetti, leaderboard)
+| Project | Stack | Highlights |
+| :--- | :--- | :--- |
+| **[kiemseo.site](https://kiemseo.site)** | `Next.js 16` · `React 19` · `TypeScript` · `PostgreSQL` · `Prisma` · `Tailwind v4` | ⚡ **Lighthouse 100/100** (Mobile & Desktop) · Zero-downtime deployment · Edge security via Cloudflare Workers |
+| **[khoahocne.xyz](https://khoahocne.xyz)** | `Next.js 16` · `React 19` · `TypeScript` · `Prisma` · `SQLite` · `Framer Motion` | Full SSR/SEO optimization · Gamification (ranks, leaderboard) · Google Auth & Dark mode |
 
 ---
 
-### 💻 What I Build
+### 🛡️ Core Specialization: Application Security & Anti-Fraud
 
-#### Full-Stack Web Architecture
-- Architect production-grade SaaS with **Next.js App Router, React 19, TypeScript**
-- Optimize to **100/100 Lighthouse** — variable fonts, WebP/AVIF, multi-layer caching
-- Full DevOps pipeline: Linux VPS, Nginx reverse proxy, PM2, Docker, SSL auto-renewal, health checks & auto-rollback
+```mermaid
+flowchart LR
+  subgraph L1["1. Pre-Start Gate"]
+    direction TB
+    A[Server-Rendered Tokens] --> B[Math Challenge Verification]
+  end
 
-#### High-Concurrency Systems (Golang)
-- Build distributed automation engines handling **tens of thousands of concurrent connections** (Goroutines, Channels)
-- Deep browser orchestration via **Chrome DevTools Protocol** (`chromedp`) at the socket level
-- Cross-platform compilation: single codebase → Windows x64 + Android ARM64/ARMv7 binaries
-- Network-layer split-routing architecture for session integrity & load testing
+  subgraph L2["2. Behavioral Biometrics"]
+    direction TB
+    C[Bézier Mouse Trajectory] --> D[Timing Variance & Dynamics]
+  end
+
+  subgraph L3["3. Hardware Profile"]
+    direction TB
+    E[Canvas 2D & WebGL GPU] --> F[AudioContext & Float Precision]
+  end
+
+  subgraph L4["4. Risk Engine"]
+    direction TB
+    G[Silent Scoring 0-100] --> H[Silent Calculation Corruption]
+  end
+
+  L1 ==> L2 ==> L3 ==> L4
+```
+
+| Security Pillar | Technical Implementation & Architecture |
+| :--- | :--- |
+| **Anti-Cheat & Fraud Engine** | Designed a **13-layer server-side engine** (~37K LOC). Analyzes mouse Bézier curves, touch dynamics, timing variance (StdDev), and `isTrusted` events with strict client/server boundary separation. |
+| **Hardware Fingerprinting** | Deep entropy collection: Canvas 2D, WebGL GPU renderer, AudioContext oscillator, float precision — bound to sessions via HMAC. |
+| **Silent Risk Scoring** | Dynamic threat scoring (0–100). Flags threats silently without tipping off attackers; corrupts calculations invisibly (**silent failure**) instead of throwing detectable errors. |
+| **Code Protection & Anti-Tamper** | Secrets isolated to Cloudflare Workers Edge Gateway; clients receive dynamic byte shards. Automated AST obfuscation (Control-Flow Flattening, RC4 encryption, DevTools getter traps). |
+| **Protocol & Reverse Engineering** | Reverse-engineered production WebAssembly (`.wasm`) and complex obfuscated JS. Analyzed ECDH P-256 + HKDF + AES-GCM handshakes. Built custom TLS JA3/JA4 fingerprints on raw sockets. |
 
 ---
 
-### 🛡️ Competitive Edge: Application Security & Anti-Fraud
+### 💻 Systems & Web Architecture
 
-> _A developer who understands how systems get broken builds systems that don't._
-
-#### Anti-Cheat & Fraud Detection Engine
-- Designed and implemented a **13-layer server-side anti-cheat engine** (~37K lines) with complete client/server separation
-- **Behavioral biometrics**: mouse trajectory analysis (Bézier curves), touch dynamics, timing variance (StdDev), `isTrusted` verification
-- Deep hardware fingerprinting: Canvas 2D, WebGL GPU renderer, AudioContext oscillator, float precision — with HMAC session binding
-- **Silent Risk Scoring** (0–100): flag threats invisibly, never reveal detection logic to attackers
-- Pre-Start Gate with server-rendered page tokens, math challenges, interaction data validation
-
-#### Application Hardening & Anti-Tamper
-- **5-layer source code protection** pipeline: secrets isolated to Cloudflare Workers Edge Gateway → client receives only runtime-assembled byte shards
-- Automated AST obfuscation build system: Control-Flow Flattening, RC4 string encryption, dead code injection, self-defending code
-- Runtime integrity: FNV-1a hash verification of critical functions, DevTools getter traps, **silent failure** (corrupt calculations silently instead of throwing errors)
-- Memory zero-trace: sensitive data processed in isolated `Uint8Array` buffers, immediately zeroed after use
-
-#### Reverse Engineering & Protocol Security Research
-- Reverse-engineered production WebAssembly (`.wasm`) anti-cheat modules and heavily obfuscated JavaScript
-- Analyzed military-grade cryptographic handshakes: ECDH Curve P-256, HKDF-SHA256 key derivation, AES-GCM encrypted payloads
-- Custom TLS ClientHello fingerprinting (JA3/JA4) — built from raw `net/tls` sockets with custom cipher suites, HPACK encoding, HTTP/2 frame-level control
-- Anti-reverse-engineering for compiled Go binaries: VM detection, debugger traps, control-flow flattening, integrity checksums
+| Domain | Architecture & Capabilities |
+| :--- | :--- |
+| **Full-Stack Architecture** | Production SaaS with **Next.js App Router, React 19, TypeScript**. Multi-layer caching, AVIF/WebP assets, variable fonts, and robust data modeling with Prisma & PostgreSQL. |
+| **High-Concurrency Systems (Go)** | Distributed automation engines managing **tens of thousands of concurrent connections** via Goroutines & Channels. Direct Chrome DevTools Protocol (`chromedp`) socket orchestration. Cross-compiled for Windows x64 and Android ARM64/ARMv7. |
+| **DevOps & Infrastructure** | Linux VPS, Nginx reverse proxy, PM2 zero-downtime reload, Docker containers, Cloudflare Workers, automated SSL renewal, and health check rollback systems. |
 
 ---
 
@@ -74,7 +99,7 @@ Full SSR/SEO optimization · Dark mode · Gamification (ranks, confetti, leaderb
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
 </p>
 
-#### Frontend & Web Performance
+#### Frontend & Performance
 <p align="left">
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
